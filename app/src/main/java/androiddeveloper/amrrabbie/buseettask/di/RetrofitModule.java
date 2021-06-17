@@ -21,6 +21,8 @@ public class RetrofitModule {
 
 
     public static final String Api_Url="https://maps.googleapis.com/maps/api/";
+    public static final String Directions_api="https://maps.googleapis.com/maps/api/";
+    public static final String Api_Key="AIzaSyAyKWcogS2vgE52G5ZBj9IXtgqQ7n3cP5A";
 
 
     @Provides

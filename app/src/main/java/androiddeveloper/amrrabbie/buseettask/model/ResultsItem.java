@@ -1,9 +1,10 @@
 package androiddeveloper.amrrabbie.buseettask.model;
 
+import java.io.Serializable;
 import java.util.List;
 import com.google.gson.annotations.SerializedName;
 
-public class ResultsItem{
+public class ResultsItem implements Serializable {
 
 	@SerializedName("types")
 	private List<String> types;

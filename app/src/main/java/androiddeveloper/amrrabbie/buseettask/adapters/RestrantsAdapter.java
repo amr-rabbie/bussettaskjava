@@ -25,6 +25,10 @@ public class RestrantsAdapter extends RecyclerView.Adapter<RestrantsAdapter.Rest
     Context mContext;
     OnRestrantslistClick onRestrantslistClick;
 
+    public ResultsItem getItemAt(int position){
+        return restrantslist.get(position);
+    }
+
     public RestrantsAdapter(Context mContext, OnRestrantslistClick onRestrantslistClick) {
         this.mContext = mContext;
         this.onRestrantslistClick = onRestrantslistClick;
